@@ -25,11 +25,12 @@ public static void main(String[] args) {
     Scanner lea =new Scanner(System.in);
 int code;
 String restaurante;
-System.out.println("ingrese el codigo de el hotel"); 
+System.out.println("ingrese el codigo de el restaurante"); 
 code = lea.nextInt();
 setCargarRestaurante();
+Disponibilidad.setCargardisponibilidad();
 System.out.println(getVrestaurante(code));
-
+System.out.println("disponibilidad "+ Disponibilidad.getDisponibilidad(code));
 
 }
 }
