@@ -1,5 +1,5 @@
 package clases;
 
-public class usuario {
+public class Usuarios {
     
 }

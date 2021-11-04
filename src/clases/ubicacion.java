@@ -1,9 +1,5 @@
 package clases;
 
-public class
-
-
-
-ubicacion {
+public class Ubicacion {
     
 }
